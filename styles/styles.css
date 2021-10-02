@@ -286,6 +286,12 @@ footer span a:hover {
     .max-width {
         padding: 0 50px;
     }
+    .home .home-content .text-1 {
+        font-size: 110px;
+    }
+    .home .home-content .text-2 {
+        font-size: 50px;
+    }
 }
 @media (max-width: 947px) {
     .max-width {
@@ -339,6 +345,9 @@ footer span a:hover {
 @media (max-width: 690px) {
     .max-width {
         padding: 0 20px;
+    }
+    .home .home-content .text-1 {
+        font-size: 80px;   
     }
     .home .home-content .text-2 {
         font-size: 22px;   
