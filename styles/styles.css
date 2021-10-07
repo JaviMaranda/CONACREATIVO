@@ -40,6 +40,9 @@ html {
     justify-content: space-between;
     
 }
+.navbar .menu {
+    margin-left: 50%;
+}
 .navbar .menu li {
     list-style: none;
     display: inline-block;
@@ -125,6 +128,7 @@ html {
     width: 20%;
     animation: bounce1 .5s alternate infinite ease-in;
 }
+
 
 /*Codigo similar para diferentes las secciones*/ 
 section {
