@@ -60,11 +60,11 @@
         </div>
     </section>
 
-    <!--SOBRE NOSOTROS-->
+    <!--BIO-->
     <section class="about" id="about">
         <div class="max-width">
             <h2 class="title">BIO</h2>
-  
+            <p>NACIÓ EN CAPITAL FEDERAL PROVINCIA DE BUENOS AIRES UN 22 DE FEBRERO DE 1983 ALREDEDOR DE LAS 15 HORAS DE UN DÍA DE CALOR. LUEGO DE TRANSITAR UNA CÁLIDA INFANCIA EN EL BARRIO DE CIUDAD JARDÍN LOMAS DEL PALOMAR Y UN TANTO INFLUENCIADO Y ASOMBRADO POR LOS DIBUJOS DE SU ABUELO, TIENE SU PRIMERA CERCANÍA CON EL LÁPIZ Y EL PAPEL. EN AQUEL MOMENTO NACIÓ UNA INQUIETUD QUE HOY DÍA CONTINÚA SIENDO FUENTE DE SU INSPIRACIÓN: EL DISEÑO GRÁFICO.</p>
         </div>
     </section>
     
@@ -76,28 +76,25 @@
             <div class="contact-content">
                 <div class="column right">
                     <div class="text">¿Quieres que trabajemos en algún proyecto?</div>
-                    <form action="enviar.php" method="POST">
-                        <div class="fields">
-                            <div class="field name">
-                                <input type="text" name="name" placeholder="Nombre" required>
+                        <form action="https://formspree.io/f/mknkeane" method="POST">
+                            <div class="fields">
+                                <div class="field name">
+                                    <input type="text" name="name" placeholder="Nombre" required>
+                                </div>
+                                <div class="field name">
+                                    <input type="email" name="email" placeholder="Email" required>
+                                </div>
                             </div>
-                            <div class="field name">
-                                <input type="email" name="email" placeholder="Email" required>
+                            <div class="field">
+                                <input type="text" name="subject" placeholder="Asunto del mensaje" required>
                             </div>
-                        </div>
-                        <div class="field">
-                            <input type="text" name="subject" placeholder="Asunto del mensaje" required>
-                        </div>
-                        <div class="field textarea">
-                            <textarea cols="30" rows="10" name="message" placeholder="Describe tu proyecto..." required></textarea>
-                        </div>
-                        <div class="button">
-                            <button type="submit">Enviar mensaje</button>
-                        </div>
-                    </form>
-                    <?php
-                    include("enviar.php");
-                    ?>
+                            <div class="field textarea">
+                                <textarea cols="30" rows="10" name="message" placeholder="Describe tu proyecto..." required></textarea>
+                            </div>
+                            <div class="button">
+                                <button type="submit">Enviar mensaje</button>
+                            </div>
+                        </form>
                 </div>
             </div>
         </div>

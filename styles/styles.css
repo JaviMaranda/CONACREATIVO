@@ -18,6 +18,9 @@ html {
 }
 
 /*NAVBAR*/
+.navbar {
+    display: none;
+}
 
 /*HOME CSS*/
 .home {
