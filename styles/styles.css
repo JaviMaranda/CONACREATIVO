@@ -19,7 +19,7 @@ html {
 
 /*NAVBAR*/
 .navbar {
-    display: none;
+    display: none;  
 }
 
 /*HOME CSS*/
@@ -62,7 +62,7 @@ html {
 }
 .home .home-content a img  {
     width: 23px;
-    animation: bounce1 .8s alternate infinite ease-in;
+    animation: .8s alternate infinite ease-in;
 }
 
 
@@ -100,7 +100,7 @@ section .title {
 }
 
 .proyects .proyects-content a img:hover {
-    animation: bounce2 .7s alternate infinite ease-in;
+    border-radius: 20pt;
 }
 
 /*BIO*/
@@ -193,7 +193,7 @@ footer {
     text-align: center;
 }
 footer span a {
-    color: #333;
+    color: #666;
     text-decoration: none;
 }
 footer span a:hover {
@@ -246,39 +246,7 @@ footer span a:hover {
     .max-width {
         padding: 0 50px;
     }
-    .menu-btn {
-        display: block;
-        z-index: 999;
-    }
-    .menu-btn i.active:before{
-        content: "\f00d";
-    }
-    .navbar .menu {
-        position: fixed;
-        height: 100vh;
-        width: 100%;
-        left: -100%;
-        top: 0%;
-        background: #1D1D1B;
-        text-align: center;
-        padding-top: 80px;
-        transition: all 0.3s ease;
-    }
-    .navbar .menu.active{
-        left: 0;
-    }
-    .navbar .menu li {
-        display: block;
-    }
-    .navbar .menu li a {
-        color: #EEE6DE;
-        display: inline-block;
-        margin: 20px 0;
-        font-size: 25px;
-    }
-    .navbar.sticky .menu li a:hover {
-        color: #333;
-    }    
+
     .max-width{
         max-width: 800px
     }
@@ -303,6 +271,9 @@ footer span a:hover {
 
 }
 @media (max-width: 500px) {
+    .max-width {
+        padding: 0 20px;
+    }
     .home .home-content a img {
         width: 15%;
     }
