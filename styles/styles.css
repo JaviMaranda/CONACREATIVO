@@ -62,7 +62,7 @@ html {
 }
 .home .home-content a img  {
     width: 23px;
-    animation: .8s alternate infinite ease-in;
+    animation: bounce1 .8s alternate infinite ease-in;
 }
 
 
@@ -105,6 +105,18 @@ section .title {
 
 /*BIO*/
 
+.about {
+    background: #1fff69;
+}
+
+.about p {
+    margin: 15px 0px;
+    font-size: 120%;
+}
+
+.about p span {
+    font-weight: 600;
+}
 
 /*CONTACTO CSS*/
 
