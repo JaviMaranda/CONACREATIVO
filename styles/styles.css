@@ -328,9 +328,9 @@ footer span a:hover {
     .navbar .menu li a {
         color: #EEE6DE;
         display: inline-block;
-        margin: 20px 0 0 80px;
-        font-size: 25px;
-        font-weight: 600;
+        margin: 8px 0 0 80px;
+        font-size: 22px;
+        font-weight: 400;
     }
 
     .navbar.sticky .menu li a:hover {
