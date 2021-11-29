@@ -354,6 +354,9 @@ footer span a:hover {
     .home .home-content .text-1 {
         font-size: 70px;
     }
+    section .title {
+        font-size: 70px;
+    }
     .home .home-content .text-2 {
         font-size: 16px;
         left: 25px;
