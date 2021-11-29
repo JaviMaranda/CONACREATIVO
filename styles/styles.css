@@ -89,17 +89,19 @@ html {
     margin-bottom: 200px;
 }
 .home .home-content .text-1 {
-    font-size: 130px;
+    font-size: 120px;
     font-weight: 900;
     margin-left: -3px;
+    transition: all 0.3s ease;
 }
 .home .home-content .text-2 {
     font-family: 'Poly', serif;
-    font-size: 23px;
+    font-size: 21px;
     font-weight: 400;
     position: relative;
-    bottom: 82px;
-    left: 500px;
+    bottom: 78px;
+    left: 470px;
+    transition: all 0.3s ease;
 }
 .home .home-content a {
     display: inline-block;
@@ -349,6 +351,13 @@ footer span a:hover {
 
 }
 @media (max-width: 500px) {
+    .home .home-content .text-1 {
+        font-size: 70px;
+    }
+    .home .home-content .text-2 {
+        font-size: 16px;
+        left: 25px;
+    }
     .max-width {
         padding: 0 20px;
     }
