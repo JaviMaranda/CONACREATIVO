@@ -340,9 +340,14 @@ footer span a:hover {
         font-size: 22px;
         font-weight: 400;
     }
+    .navbar .menu li a.active{
+        visibility: collapse;
+        left: 100%;
+    }
     .navbar.sticky .menu li a:hover {
         color: #ec21b9;
-    }    
+    }   
+  
 }
 @media (max-width: 690px) {
     footer span {

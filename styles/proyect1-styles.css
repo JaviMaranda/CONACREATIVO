@@ -76,7 +76,7 @@ html {
 }
 /*Codigo similar para diferentes las secciones*/ 
 section {
-    padding: 100px 0;
+    padding: 20px 0;
 }
 .about, .proyects, .contact, footer {
     font-family: 'Montserrat';
@@ -86,9 +86,9 @@ section {
 section .title {
     position: relative;
     text-align: left;
-    font-size: 40px;
+    font-size: 30px;
     font-weight: 900;
-    line-height: 40px;
+    line-height: 30px;
     margin-bottom: 60px;
     padding-bottom: 5px;
 }
@@ -173,9 +173,6 @@ footer span a:hover {
         text-align: left;
         padding-top: 80px;
         transition: all 0.3s ease;
-    }
-    .navbar .menu.active{
-        left: 0;
     }
     .navbar .menu li {
         display: block;
